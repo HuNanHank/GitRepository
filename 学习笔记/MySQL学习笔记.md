@@ -1112,7 +1112,7 @@ mysql> DELIMITER ;
 最后使用DELIMITER ; 将结束符号还原
 
 触发器类型:
-![f7d47c321ab167f8d4d6883e63bdda6a.png](evernotecid://FDBEF607-875A-4DCF-8965-DEF1977D7B1A/appyinxiangcom/22196718/ENResource/p3)
+
 >load data语句是将文件的内容插入到表中，相当于是insert语句，而replace语句在一般的情况下和insert差不多，但是如果表中存在primary 或者unique索引的时候，如果插入的数据和原来的primary key或者unique相同的时候，会删除原来的数据，然后增加一条新的数据，所以有的时候执行一条replace语句相当于执行了一条delete和insert语句。
 
 下面我们对Student表创建一个日志表,来验证触发器.
