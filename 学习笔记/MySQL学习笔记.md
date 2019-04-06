@@ -1111,7 +1111,7 @@ mysql> DELIMITER ;
 >上面的语句中，开头将结束符号定义为||，中间定义一个触发器，一旦有满足条件的删除操作就会执行BEGIN和END中的语句，接着使用||结束
 最后使用DELIMITER ; 将结束符号还原
 
-触发器类型:
+触发器类型:![title](https://i.loli.net/2019/04/06/5ca863ba68f3b.png)
 
 >load data语句是将文件的内容插入到表中，相当于是insert语句，而replace语句在一般的情况下和insert差不多，但是如果表中存在primary 或者unique索引的时候，如果插入的数据和原来的primary key或者unique相同的时候，会删除原来的数据，然后增加一条新的数据，所以有的时候执行一条replace语句相当于执行了一条delete和insert语句。
 
